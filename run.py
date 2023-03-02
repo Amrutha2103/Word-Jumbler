@@ -38,10 +38,20 @@ def show_instructions():
     print("Good luck!\n")
 
 def play_game(wordlist):
-
-
-
-
+    game = JumbledWordGame(wordlist)
+    while game.lives > 0:
+        game.play()
+        if game.lives == 0:
+            print("Game over!")
+            break
+        play_again = input("Play again? (y/n): ")
+        if play_again.lower() != 'y':
+            break
+        else:
+            print("Starting a new game...")
+            game.score = 0
+            game.lives = 3
+    print(f"Final score: {game.score}")
 
 def main():
 
