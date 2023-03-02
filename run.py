@@ -1,7 +1,7 @@
 import random
 class JumbledWordGame:
     def __init__(self, wordlist):
-        self.wordlist = wordlist
+        self.wordlist = ['python', 'java', 'ruby', 'javascript', 'html', 'css']
         self.score = 0
         self.lives = 3
 
@@ -25,7 +25,7 @@ class JumbledWordGame:
         return ''.join(jumbled)
         
 def load_wordlist(filename):
-     with open(filename, 'r') as f:
+    with open(filename, 'r') as f:
         wordlist = [word.strip() for word in f.readlines()]
     return wordlist
 
@@ -38,7 +38,7 @@ def show_instructions():
     print("Good luck!\n")
 
 def play_game(wordlist):
-    game = JumbledWordGame(wordlist)
+    game = JumbledWordGame()
     while game.lives > 0:
         game.play()
         if game.lives == 0:
@@ -54,10 +54,9 @@ def play_game(wordlist):
     print(f"Final score: {game.score}")
 
 def main():
-     wordlist = load_wordlist('wordlist.txt')
     show_instructions()
-    play_game(wordlist)
-
+    play_game()
+    
 if __name__ == '__main__':
     main()
 
