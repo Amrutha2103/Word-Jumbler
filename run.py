@@ -23,11 +23,6 @@ class JumbledWordGame:
         jumbled = list(word)
         random.shuffle(jumbled)
         return ''.join(jumbled)
-        
-def load_wordlist(filename):
-    with open(filename, 'r') as f:
-        wordlist = [word.strip() for word in f.readlines()]
-    return wordlist
 
 def show_instructions():
     print("Welcome to the jumbled word game!")
@@ -56,7 +51,7 @@ def play_game(wordlist):
 def main():
     show_instructions()
     play_game()
-    
+
 if __name__ == '__main__':
     main()
 
