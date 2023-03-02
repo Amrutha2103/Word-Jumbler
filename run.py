@@ -54,5 +54,11 @@ def play_game(wordlist):
     print(f"Final score: {game.score}")
 
 def main():
+     wordlist = load_wordlist('wordlist.txt')
+    show_instructions()
+    play_game(wordlist)
+
+if __name__ == '__main__':
+    main()
 
 
