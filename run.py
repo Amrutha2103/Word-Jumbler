@@ -20,9 +20,14 @@ class JumbledWordGame:
         
 
     def jumble(self, word):
+        jumbled = list(word)
+        random.shuffle(jumbled)
+        return ''.join(jumbled)
         
-
 def load_wordlist(filename):
+     with open(filename, 'r') as f:
+        wordlist = [word.strip() for word in f.readlines()]
+    return wordlist
 
 
 
