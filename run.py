@@ -29,13 +29,13 @@ def load_wordlist(filename):
         wordlist = [word.strip() for word in f.readlines()]
     return wordlist
 
-
-
-
 def show_instructions():
-
-
-
+    print("Welcome to the jumbled word game!")
+    print("Unscramble the jumbled word and type in your guess.")
+    print("You have three lives. Each incorrect guess will cost you a life.")
+    print("If you lose all your lives, the game is over.")
+    print("Your score will increase by one for each correct guess.")
+    print("Good luck!\n")
 
 def play_game(wordlist):
 
