@@ -1,11 +1,15 @@
 import random
 
+# Defining a class called JumbledWordGame
+
 
 class JumbledWordGame:
     def __init__(self):
         self.wordlist = ['python', 'java', 'ruby', 'javascript', 'html', 'css']
         self.score = 0
         self.lives = 3
+
+# Defining a method called play to play the game
 
     def play(self):
         word = self.wordlist[0]
@@ -22,10 +26,15 @@ class JumbledWordGame:
             self.wordlist.append(word)
         print(f"Score: {self.score}  Lives: {self.lives}\n")
 
+# Defining a method called jumble to jumble a word
+
     def jumble(self, word):
         jumbled = list(word)
         random.shuffle(jumbled)
         return ''.join(jumbled)
+
+
+# Defining a function called show_instructions to display instructions for the game
 
 
 def show_instructions():
@@ -36,6 +45,8 @@ def show_instructions():
     print("Your score will increase by one for each correct guess.")
     print("Good luck!\n")
 
+
+# Defining a function called play_game to play the game
 
 def play_game():
     game = JumbledWordGame()
@@ -53,6 +64,8 @@ def play_game():
         game.score = 0
         game.lives = 3
         main()
+
+# Defining the main function
 
 
 def main():
