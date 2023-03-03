@@ -1,31 +1,22 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Word Jumbler**
 
-Welcome USER_NAME,
+[Click here to view the live project](https://word-jumbler.herokuapp.com)
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+The project is a Jumbled Word Game, which is a fun and educational word game that challenges players to unscramble jumbled words.
 
-## Reminders
+Players are presented with a jumbled word and must guess the original word. The program keeps track of the player's score and lives, and the game ends when the player runs out of lives or chooses to quit. The game also provides instructions and a option to play again after each round.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+![This is an image](documentation/readme1.jpg)
 
-## Creating the Heroku app
+## **How to Play**
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The game will begin and present you with a jumbled word to unscramble. Type in your guess for the original word, and the program will let you know if you are correct or incorrect.
 
-1. `heroku/python`
-2. `heroku/nodejs`
+You have three lives, so if you guess incorrectly, you will lose a life. If you lose all three lives, the game ends. Your score increases by one for each correct guess, and the program will keep track of your score and lives as you play.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+After each round, you will have the option to play again or quit. If you choose to play again, the game will start over with a new jumbled word and reset your score and lives.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+## **Features**
 
-Connect your GitHub repository and deploy as normal.
+### **Existing Features**
 
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
