@@ -49,6 +49,7 @@ def play_game(wordlist):
     print(f"Final score: {game.score}")
 
 def main():
+    wordlist = ["python", "java", "ruby", "javascript", "html", "css"]
     show_instructions()
     play_game()
 
