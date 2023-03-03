@@ -34,7 +34,7 @@ class JumbledWordGame:
         return ''.join(jumbled)
 
 
-# Defining a function called show_instructions to display instructions for the game
+# Defining a function called show_instructions to display instructions for game
 
 
 def show_instructions():
