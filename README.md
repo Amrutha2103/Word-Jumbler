@@ -27,7 +27,22 @@ After each round, you will have the option to play again or quit. If you choose 
 
     ![This is an image](documentation/instructions.jpg)
 
+    
+- The jumbled word is displayed, and the player enters their guess. If the answer is correct, the player's score increases to 1, and their remaining lives stay at 3.
+
+ ![This is an image](documentation/correct.jpg)
 
 
 
+- Again a jumbled word is displayed, and the player enters their guess. If the answer is not correct, the player's score stays at 1, and their remaining lives decrease to 2. 
+
+![This is an image](documentation/incorrect.jpg)
+
+- When the player has run out of lives, the game ends, and the final score is displayed.
+
+- The player is asked if they want to play again. If they choose not to, the game ends. If they choose to play again, a new game starts with a score of 0 and three lives.
+
+![This is an image](documentation/score.jpg)
+
+### **Future Features**
 
