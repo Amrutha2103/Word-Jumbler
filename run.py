@@ -1,4 +1,5 @@
 import random
+import time
 
 # Defining a class called JumbledWordGame
 
@@ -16,7 +17,17 @@ class JumbledWordGame:
         self.wordlist.pop(0)
         jumbled = self.jumble(word)
         print(f"Jumbled word: {jumbled}")
+
+# Start the timer
+
+        start_time = time.time()
+
         guess = input("Guess the word: ")
+
+# Stop the timer
+
+        end_time = time.time()
+
         if guess.lower() == word.lower():
             print("Correct!")
             self.score += 1
@@ -24,6 +35,8 @@ class JumbledWordGame:
             print(f"Incorrect. The word was {word}.")
             self.lives -= 1
             self.wordlist.append(word)
+
+        print(f"Time taken: {end_time - start_time:.2f} seconds")
         print(f"Score: {self.score}  Lives: {self.lives}\n")
 
 # Defining a method called jumble to jumble a word
