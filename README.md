@@ -20,3 +20,14 @@ After each round, you will have the option to play again or quit. If you choose 
 
 ### **Existing Features**
 
+- Instructions to the player
+
+    - The game starts by displaying the instructions to the player.
+
+
+    ![This is an image](documentation/instructions.jpg)
+
+
+
+
+
