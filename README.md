@@ -12,7 +12,8 @@ Players are presented with a jumbled word and must guess the original word. The 
 
 The game will begin and present you with a jumbled word to unscramble. Type in your guess for the original word, and the program will let you know if you are correct or incorrect.
 
-You have three lives, so if you guess incorrectly, you will lose a life. If you lose all three lives, the game ends. Your score increases by one for each correct guess, and the program will keep track of your score and lives as you play.
+You have three lives, so if you guess incorrectly, you will lose a life. If you lose all three lives, the game ends. Your score increases by one for each correct guess, and the program will keep track of your score and lives as you play.The game also displays a time taken to complete each questions.
+
 
 After each round, you will have the option to play again or quit. If you choose to play again, the game will start over with a new jumbled word and reset your score and lives.
 
@@ -24,15 +25,11 @@ After each round, you will have the option to play again or quit. If you choose 
 
     - The game starts by displaying the instructions to the player.
 
-
     ![This is an image](documentation/instructions.jpg)
 
-    
 - The jumbled word is displayed, and the player enters their guess. If the answer is correct, the player's score increases to 1, and their remaining lives stay at 3.
 
     ![This is an image](documentation/correct.jpg)
-
-
 
 - Again a jumbled word is displayed, and the player enters their guess. If the answer is not correct, the player's score stays at 1, and their remaining lives decrease to 2. 
 
@@ -60,3 +57,41 @@ I have manually tested this project by doing the folllowing :
 - Passed the code through a PEP8 Python Validator and confirmed there are no problems.
 
 - Tested in my local terminal and the Code Institute Heroku terminal.
+
+
+### **Bugs**
+
+#### **Solved Bugs**
+
+- 
+
+-
+
+
+#### **Remaining Bugs**
+
+No Bugs remaining
+
+
+### **Validator Testing**
+
+- PEP8
+    - No errors were returned from PEP8online.com
+
+![This is an image](documentation/pep8.jpg)
+
+## **Deployment**
+
+This project was deployed using Code Institute's mock terminal for Heroku.
+
+- Steps for deployment :
+    - Fork or clone this repository
+    - Create a new Heroku app
+    - Set the buildbacks to Python and NodeJs in that order
+    - Link the Heroku app to the repository
+    - Click on Deploy
+
+## **Credits**
+
+- Code Institute for the deployment terminal.
+- Google for the details of the wordjumbler game.
