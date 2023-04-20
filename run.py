@@ -3,6 +3,7 @@ import time
 import os
 
 
+# Defining a function called clear to clear each words
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
@@ -14,7 +15,7 @@ class JumbledWordGame:
         self.score = 0
         self.lives = 3
 
-# Defining a method called play to play the game
+# Defining a method called play to retrieve each word and then removes it from list
 
     def play(self):
         word = self.wordlist[0]
