@@ -117,22 +117,29 @@ I have manually tested this project by doing the folllowing :
 
 - Passed the code through a PEP8 Python Validator and confirmed there are no problems.
 
+    ![This is an image](documentation/pep8.jpg)
+
 - Tested in my local terminal and the Code Institute Heroku terminal.
 
+    ![This is an image](documentation/test-heroku.jpg)
+
+    ![This is an image](documentation/test-local.jpg)
 
 ### **Bugs**
 
 #### **Solved Bugs**
 
-- 
+- When I tested, I found that words having repeated letters are not shuffled and displayed as such eg:"css". 
 
--
+- I also found that absence of user feedback and allowance of empty/invalid data entry causes the function to break. I solved this issue by adding an if else statement.
+
+    ![This is an image](documentation/bug.jpg)
 
 
 #### **Remaining Bugs**
 
 
-No Bugs remaining
+- No Bugs remaining
 
 
 ### **Validator Testing**
@@ -239,4 +246,16 @@ You can fork this repository by using the following steps:
 
 
 - Code Institute for the deployment terminal.
+
 - Google for the details of the wordjumbler game.
+
+
+
+### **Acknowledgements**
+
+
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for their support throughout the development of this project.
+
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and imposter syndrome.
+
+- I would like to thank my partner (Ananthan), for believing in me, and allowing me to make this transition into software development.
