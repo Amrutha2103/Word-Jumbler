@@ -11,11 +11,13 @@ def clear():
 # Defining a class called JumbledWordGame
 class JumbledWordGame:
     def __init__(self):
-        self.wordlist = ['python', 'keyboard', 'processor', 'programming', 'hardware', 'internet', 'microsoft', 'microprocessor', 'registers', 'backup']
+        self.wordlist = ['python', 'keyboard', 'processor', 'programming',
+                         'hardware', 'internet', 'microsoft', 'microprocessor',
+                         'registers', 'backup']
         self.score = 0
         self.lives = 3
 
-# Defining a method called play to retrieve each word and then removes it from list
+# Defining a method called play to retrieve each word and then remove from list
 
     def play(self):
         word = self.wordlist[0]
