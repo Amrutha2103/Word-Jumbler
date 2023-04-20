@@ -10,7 +10,7 @@ def clear():
 # Defining a class called JumbledWordGame
 class JumbledWordGame:
     def __init__(self):
-        self.wordlist = ['python', 'java', 'ruby', 'javascript', 'html', 'css']
+        self.wordlist = ['python', 'keyboard', 'processor', 'programming', 'hardware', 'internet', 'microsoft', 'microprocessor', 'registers', 'backup']
         self.score = 0
         self.lives = 3
 
