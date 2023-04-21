@@ -160,6 +160,14 @@ I tested my deployed project using the lighthouse audit tool to check for any ma
 ![This is an image](documentation/lighthouse.jpg)
 
 
+### **Defensive programming**
+
+
+Defensive programming was manually tested to validate user inputs.
+
+![This is an image](documentation/defensive.jpg)
+
+
 ## **Deployment**
 
 
