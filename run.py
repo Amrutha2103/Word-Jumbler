@@ -13,7 +13,7 @@ class JumbledWordGame:
     def __init__(self):
         self.wordlist = ['python', 'keyboard', 'processor', 'programming',
                          'hardware', 'internet', 'microsoft', 'microprocessor',
-                         'registers', 'backup']
+                         'registers', 'backup', 'automation']
         self.score = 0
         self.lives = 3
 
@@ -48,7 +48,6 @@ class JumbledWordGame:
         else:
             print(f"Incorrect. The word was {word}.")
             self.lives -= 1
-            self.wordlist.append(word)
 
         print(f"Time taken: {end_time - start_time:.2f} seconds")
         print(f"Score: {self.score}  Lives: {self.lives}\n")
