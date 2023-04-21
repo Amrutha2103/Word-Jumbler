@@ -188,6 +188,8 @@ Defensive programming was manually tested to validate user inputs.
 
 ![This is an image](documentation/defensive.jpg)
 
+![This is an image](documentation/defensive2.jpg)
+
 
 ## **Deployment**
 
