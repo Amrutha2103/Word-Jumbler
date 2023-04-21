@@ -88,10 +88,15 @@ The program uses classes as a blueprint for the project's objects (OOP). This al
 class JumbledWordGame:
     """ Defining a class called JumbledWordGame """
     def __init__(self):
-        self.wordlist = ['python', 'keyboard', 'processor', 'programming', 'hardware', 'internet', 'microsoft', 'microprocessor', 'registers', 'backup']
+        self.wordlist = [...]
         self.score = 0
         self.lives = 3
 ```
+
+The following method is part of the JumbledWordGame class :
+
+- `play(self)`
+    - retrieves each word and then removes it from list
 
 The primary functions used on this application are:
 
@@ -103,8 +108,6 @@ The primary functions used on this application are:
     - To jumble a word
 - `clear()`
     - to clear each words
-- `play(self)`
-    - retrieves each word and then removes it from list
 - `main()`
     - Run all program functions.
 
