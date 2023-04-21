@@ -130,11 +130,32 @@ I have manually tested this project by doing the folllowing :
 
 #### **Solved Bugs**
 
-- When I tested, I found that words having repeated letters are not shuffled and displayed as such eg:"css". 
+- When I tested, I found that words having repeated letters are not shuffled and displayed as such (eg:"css"). 
 
-- I also found that absence of user feedback and allowance of empty/invalid data entry causes the function to break. I solved this issue by adding an if else statement.
+```python
+    def jumble(self, word):
+        jumbled = list(word)
+        while True:
+            random.shuffle(jumbled)
+            if ''.join(jumbled) != word:
+                break
+        return ''.join(jumbled)
+```
 
-    ![This is an image](documentation/bug.jpg)
+- I also found that absence of user feedback and allowance of empty/invalid data entry causes the function to break. I solved this issue by adding an `if else` statement.
+
+```python
+        while True:
+            guess = input("Guess the word: ")
+            if len(guess) != len(word):
+                print("Your guess is invalid")
+            elif not guess.isalpha():
+                print("Your guess must be only letters")
+            else:
+                break
+```
+
+![This is an image](documentation/bug.jpg)
 
 
 #### **Remaining Bugs**
