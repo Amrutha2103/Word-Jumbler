@@ -152,6 +152,14 @@ I have manually tested this project by doing the folllowing :
     ![This is an image](documentation/pep8.jpg)
 
 
+### **Lighthouse Testing**
+
+
+I tested my deployed project using the lighthouse audit tool to check for any major issues.
+
+![This is an image](documentation/lighthouse.jpg)
+
+
 ## **Deployment**
 
 
