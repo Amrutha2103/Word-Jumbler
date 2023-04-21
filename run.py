@@ -86,8 +86,15 @@ def play_game():
             clear()
             print("Game over!")
             break
-    play_again = input("Play again? (y/n): ")
-    if play_again.lower() != 'y':
+    while True:
+        play_again = input("Play again? (y/n): ").lower()
+        choices = ["y", "n"]
+        if play_again in choices:
+            break
+        else:
+            print("invalid choice. Type 'y' or 'n'")
+
+    if play_again != 'y':
         clear()
         print(f"Final score: {game.score}")
     else:
