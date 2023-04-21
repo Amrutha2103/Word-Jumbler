@@ -120,8 +120,6 @@ I have manually tested this project by doing the folllowing :
 
 - Passed the code through a PEP8 Python Validator and confirmed there are no problems.
 
-    ![This is an image](documentation/pep8.jpg)
-
 - Tested in my local terminal and the Code Institute Heroku terminal.
 
     ![This is an image](documentation/test-heroku.jpg)
@@ -149,9 +147,9 @@ I have manually tested this project by doing the folllowing :
 
 
 - PEP8
-    - No errors were returned from PEP8online.com
+    - No errors were returned from [PEP8](https://pep8ci.herokuapp.com/)
 
-![This is an image](documentation/pep8.jpg)
+    ![This is an image](documentation/pep8.jpg)
 
 
 ## **Deployment**
